@@ -21,5 +21,17 @@ function compile(sourceCode: string) {
 
 // import Button from "antd/lib/button";
 console.log(
-  compile('import { Button } from "antd"')
+  compile(`
+    class Auth extends Vue {
+
+      auth!: {
+        token: string;
+      }
+
+      login() {
+        console.log(this);
+      }
+    }
+
+  `)
 )

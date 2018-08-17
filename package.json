@@ -6,7 +6,6 @@
   "author": "newraina <newraina@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "ts-is-kind": "^1.0.0",
-    "typescript": "^2.5.2"
+    "typescript": "^3.0.1"
   }
 }
